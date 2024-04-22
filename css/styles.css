@@ -230,6 +230,11 @@ ul {
   color: #2e2f42;
 }
 
+.mob-nav-link:hover,
+.mob-nav-link:focus {
+  color: #404bbf;
+}
+
 .mob-social {
 }
 .mob-address {
@@ -246,6 +251,11 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.mob-address-link:hover,
+.mob-address-link:focus {
+  color: #4d5ae5;
 }
 
 .mob-social-list {
