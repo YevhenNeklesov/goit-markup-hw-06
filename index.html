@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="header-menu container">
         <nav class="header-nav">
           <a class="header-link" href="./index.html"
@@ -49,15 +49,88 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="header-btn">
+          <svg class="header-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-header-btn"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu">
+        <div>
+          <button type="button" class="menu-cls-btn">
+            <svg class="menu-cls-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-header-list">
+              <li class="mob-nav-item">
+                <a class="mob-nav-link studio" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mob-social">
+          <address class="mob-address">
+            <ul class="mob-address-list">
+              <li class="mob-address-item">
+                <a class="mob-address-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a class="mob-address-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-social-list">
+            <li class="icon-item">
+              <a href="" class="icon-link footer-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link footer-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link footer-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-item">
+              <a href="" class="icon-link footer-icon">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main class="main">
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
         </div>
-      </section> -->
+      </section>
       <section class="advantage section">
         <div class="container">
           <h2 class="advantage-title visually-hidden">advantage</h2>
@@ -534,15 +607,15 @@
     </main>
     <footer class="footer">
       <div class="container footer-flex">
-        <!-- <div class="footer-logo"> -->
-        <a class="footer-link" href="./index.html"
-          >Web<span class="accent">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-        <!-- </div> -->
+        <div class="footer-logo">
+          <a class="footer-link" href="./index.html"
+            >Web<span class="accent">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
         <div class="footer-social">
           <p class="footer-social-text">Social media</p>
           <ul class="footer-social-list">
@@ -598,7 +671,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="model">
         <button class="model-btn-close" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -673,8 +746,10 @@
                 ><svg class="cube-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg
               ></span>
-              I accept the terms and conditions of the
-              <a href="" class="police-link">Privacy Policy</a>
+              <span class="police-link-accent">
+                I accept the terms and conditions of the
+                <a href="" class="police-link">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button type="button" class="model-btn-send">Send</button>
